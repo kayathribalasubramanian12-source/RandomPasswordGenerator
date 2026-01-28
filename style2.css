@@ -1,0 +1,116 @@
+/* Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Container */
+.container {
+  width: 350px;
+  padding: 30px 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading text */
+.text {
+  margin-bottom: 25px;
+}
+
+#head {
+  font-size: 26px;
+  font-weight: 700;
+  color: #333;
+}
+
+#subhead {
+  font-size: 18px;
+  font-weight: 500;
+  color: #666;
+  letter-spacing: 2px;
+}
+
+/* Input + copy button */
+.main {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+#inpt {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+}
+
+#inpt:focus {
+  border-color: #667eea;
+}
+
+/* Copy button */
+.copy {
+  padding: 10px 12px;
+  border: none;
+  background: #667eea;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.copy:hover {
+  background: #5563d9;
+}
+
+/* Generate button section */
+#gne-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Sparkle icon */
+#gne-btn i {
+  color: #667eea;
+  font-size: 18px;
+}
+
+/* Generate button */
+.generate {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background: #764ba2;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.generate:hover {
+  background: #643d8b;
+}
